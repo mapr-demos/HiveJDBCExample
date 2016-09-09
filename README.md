@@ -5,7 +5,7 @@ This repository contains a simple Maven project for connecting to Hive 1.0 on a 
 # To build and run
 
 1. Clone this repo.
-2. Edit the JDBC URL to your liking.
+2. Edit the JDBC URL in `src/main/java/HiveJDBCExample.java` to your liking.
 3. `mvn package`
 4. Use `maprlogin` to obtain your ticket: `maprlogin password`
 5. Run: 
